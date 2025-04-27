@@ -1,0 +1,62 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-align: center;
+}
+.write-todo{
+    width: 100%;
+   
+}
+
+.add-button,.update-btn{
+    float: right;
+    margin-right: 30rem;
+    padding: 0.3rem 1.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.clear{
+    clear: both;
+}
+.todo-title{
+    margin: 15px;
+
+}
+.todo-describe{
+    margin-bottom: 15px;
+
+}
+.todo-title,.todo-describe,.todo-item{
+width: 40%;
+padding: 15px ;
+border-radius: 1rem;
+border-style: solid;
+border-color:rgb(158, 156, 156);
+}
+
+
+.todo-item{
+    font-size: 20px;
+    padding: 5px;
+    background-color: #fff;
+    margin: 5px 0;
+    width: 40%;
+    border-color: rgb(206, 203, 203);
+    margin: auto;
+}
+.delete-btn,.edit-btn,.check-btn{
+    float: right;
+}
+.green{
+    background-color: rgb(182, 232, 182);
+    transition:0.3s ease;
+
+}
+.green span{
+    text-decoration: line-through;
+}
+
+.todo-item span{
+    float: left;
+}
